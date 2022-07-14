@@ -38,6 +38,7 @@ alias gcb="git checkout -b"
 alias gcm="git commit -m"
 alias gf="git fetch & git remote prune origin"
 alias gl="git log"
+alias grv="git remote -v"
 alias gs="git status"
 alias gpl="git pull --prune"
 
@@ -66,9 +67,6 @@ export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-
-# Foundry
-export PATH="$PATH:/Users/sasha/.foundry/bin"
 
 # on shell login
 cd ~/Desktop
