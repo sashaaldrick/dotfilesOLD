@@ -9,7 +9,8 @@ source $ZSH/oh-my-zsh.sh
 
 ## Plugin Installs
 ### Z directory search
-source ~/.config/plugins/zsh-z.plugin.zsh
+plugins=( zsh-z )
+# source ~/.config/plugins/zsh-z.plugin.zsh
 # tabtab
 [[ -f ~/.config/tabtab/zsh/__tabtab.zsh ]] && . ~/.config/tabtab/zsh/__tabtab.zsh || true
 
@@ -69,4 +70,4 @@ source $(brew --prefix nvm)/nvm.sh
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # on shell login
-cd ~/Desktop
+# cd ~/Desktop
