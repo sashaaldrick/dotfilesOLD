@@ -1,0 +1,11 @@
+# open program keyboard shortcuts
+alt - e : open -a "Terminal"
+alt - w : open -a "Brave Browser"
+alt - q : open -a "Visual Studio Code"
+alt - t : open -a "Telegram"
+alt - m : open -a "Spotify"
+alt - s : open -a "Signal"
+alt - n : open -a "Standard Notes"
+alt - r : open -a "Reminders"
+
+
